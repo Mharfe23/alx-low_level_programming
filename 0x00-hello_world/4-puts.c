@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * dds
- * sds
- * sd
+ * main - whatever
+ *@parametrx: dklldk
+ *
+ * Description:blablabla
+ * section header:ldlad
+ * Return:0
  */
 int main(void)
 {
