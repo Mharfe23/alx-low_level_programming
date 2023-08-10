@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
  * main - whatever
- *@parametrx: dklldk
- *
  * Description:blablabla
  * section header:ldlad
  * Return:0
