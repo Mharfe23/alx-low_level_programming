@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* Description: Longer description of the function)?*/
-/* main - dkgkfgkfgfgfg*/
-/* betty style doc for function main goes there */
+/**
+ * main - whatever
+ * Description:blablabla
+ * section header:ldlad
+ * Return:0
+ */
 int main(void)
 {
 	int n;
