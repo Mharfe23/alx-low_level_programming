@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf("and is greater than 5");
 	}
-	else if (c == 0);
+	else if (c == 0)
 	{
 		printf("and is 0");
 	}
