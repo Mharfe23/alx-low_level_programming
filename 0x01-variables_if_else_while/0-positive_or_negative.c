@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-/* Description: Longer description of the function)?
+/* Description: Longer description of the function)?*/
 /* betty style doc for function main goes there */
 int main(void)
 {
