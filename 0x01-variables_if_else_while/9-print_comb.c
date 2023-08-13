@@ -11,9 +11,9 @@ int main(void)
 {
 	int i;
 
-for (i = 1; i <= 9; i++)
-		putchar(i + '0');
-		putchar(",");
+	for (i = 48; i <= 57 ; i++)
+		putchar(i);
+		putchar(',');
 		putchar(' ');
 	return (0);
 
