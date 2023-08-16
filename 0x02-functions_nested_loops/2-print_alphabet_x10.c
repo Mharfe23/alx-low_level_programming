@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /*
- * print_alphabet_x10 - whatever tljhgslihgmezirhgazpirhaefgjeapogr
+ * print_alphabet_x10 - whatever t 10 ljhgslihgmezirhgazpirhaefgjeapogr
  *
  */
 void print_alphabet_x10(void)
