@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /*
- * print_alphabet-print alphabet a to z
+ * print_alphabet- print alphabet a to z
  * description:priting alphabet
  * Return:0
  */
