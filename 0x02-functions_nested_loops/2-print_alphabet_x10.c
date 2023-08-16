@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include "1-alphabet.c"
 /*
  * print_alphabet_x10 - whatever
  */
