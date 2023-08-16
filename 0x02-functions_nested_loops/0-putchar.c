@@ -4,6 +4,7 @@
  * main - prinnting
  * thats a description
  * Retrun:0
+ * another descr
  */
 
 int main(void)
