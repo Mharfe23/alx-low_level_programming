@@ -3,9 +3,7 @@
 /*
  * print_alphabet - print alphabet a to z
  *
- * description: priting alphabet
- * section header: ok
- * jjkjgkg
+ * description: pritin
  */
 void print_alphabet(void)
 {
