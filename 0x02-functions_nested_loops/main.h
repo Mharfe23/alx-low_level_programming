@@ -1,3 +1,4 @@
-#ifndef main.h
-#define main.h
-char _putchar(char);
+#ifndef main_h
+#define main_h
+int _putchar(char);
+#endif
