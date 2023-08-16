@@ -6,7 +6,6 @@
  * description: priting alphabet
  * section header: ok
  * jjkjgkg
- * Return:0
  */
 void print_alphabet(void)
 {
