@@ -3,7 +3,6 @@
 /*
  * print_alphabet - print alphabet a to z
  *
- * description: pritin
  */
 void print_alphabet(void)
 {
