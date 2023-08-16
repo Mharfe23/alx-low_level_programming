@@ -4,7 +4,7 @@
  * print_alphabet - print alphabet a to z
  *
  * description: priting alphabet
- * section header:ok
+ * section header: ok
  * jjkjgkg
  * Return:0
  */
