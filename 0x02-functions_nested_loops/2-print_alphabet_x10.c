@@ -2,7 +2,7 @@
 
 
 /*
- * print_alphabet_x10 - whatever t 10 ljhgslihgmezirhgazpirhaefgjeapogr
+ * print_alphabet_x10 - print  10 times  alphabet
  *
  */
 void print_alphabet_x10(void)
