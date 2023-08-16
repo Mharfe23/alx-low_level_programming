@@ -3,7 +3,7 @@
 /**
  * main - prinnting
  * thats a description
- * Retrun: 0
+ * Retrun:0
  */
 
 int main(void)
