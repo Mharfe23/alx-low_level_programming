@@ -2,7 +2,7 @@
 #include <stdio.h>
 /*
  * print_alphabet- print alphabet a to z
- * description:priting alphabet
+ * description: priting alphabet
  * Return:0
  */
 void print_alphabet(void)
