@@ -2,9 +2,9 @@
  
 /**
  * print_numbers - from 0 to 9
+ *
  * Return:
  *
- * Description: whatever
  */
 void print_numbers(void)
 {
