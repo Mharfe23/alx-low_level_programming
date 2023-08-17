@@ -5,8 +5,8 @@
  * @b: second one
  * Return: int
  */
-int mul(int a,int b)
+int mul(int a, int b)
 {
-	int c = a*b;
+	int c = a * b;
 	return (c);
 }
