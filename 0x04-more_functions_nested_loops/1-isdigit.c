@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * _isdigit - thats my fonction
 *
 *Return: 1 if c is uppercase or 0 if otherwise
