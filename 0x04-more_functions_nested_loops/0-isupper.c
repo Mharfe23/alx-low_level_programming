@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _isupper - thats my fonction
+ *_isupper - thats my fonction
  *
  *Return: 1 if c is uppercase or 0 if otherwise
 
