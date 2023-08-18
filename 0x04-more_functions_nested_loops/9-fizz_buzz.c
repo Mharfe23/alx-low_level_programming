@@ -12,22 +12,22 @@ int main(void)
 		if ((i % 3 == 0) && (i % 5 != 0))
 		{
 			printf("Fizz");
-			printf(" ");
+			putchar(' ');
 		}
 		else if ((i % 3 != 0) && (i % 5 == 0))
 		{
 			printf("Buzz");
-			printf(" ");
+			putchar(' ');
 		}
 		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("FizzBuzz");
-			printf(" ");
+			putchar(' ');
 		}
 		else
 		{
 			printf("%d", i);
-			printf(' ');
+			putchar(' ');
 
 		}
 	}
