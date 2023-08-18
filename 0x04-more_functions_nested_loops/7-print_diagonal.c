@@ -1,7 +1,7 @@
 #inclue "main.h"
 /**
  * print_diagonal - as montioned
- * @i:intiger
+ * @n:intiger
  * Return:
  */
 void print_diagonal(int n)
