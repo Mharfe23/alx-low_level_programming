@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * main - its the main
+ */
 int main(void)
 {
 	int i;
@@ -16,4 +19,5 @@ int main(void)
 			print("%d", i);
 		}
 	}
+	return (0);
 }
