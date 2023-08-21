@@ -9,6 +9,7 @@ int _strlen(char *s)
 	int sum;
 	int i;
 
+	sum = 1;
 	for (i = 0; s[i] != '\0'; i++)
 		sum++;
 	return (sum);
