@@ -1,1 +1,1 @@
-C whatever
+pointers task
