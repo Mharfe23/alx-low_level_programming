@@ -8,6 +8,8 @@ void print_rev(char *s)
 	char *m = s;
 
 	while (*s != '\0')
+	{
+		-putchar(*s);
 		s++;
 	s--;
 	while (s >= m)
