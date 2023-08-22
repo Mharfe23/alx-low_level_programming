@@ -6,9 +6,11 @@
  */
 void print_array(int *a, int n)
 {
-	for (; a < n; a++)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
-		_putchar(a);
+		printf('%d',a[i]);
 		_putchar(',');
 		_putchar(' ');
 	}
