@@ -22,5 +22,3 @@ void rev_string(char *s)
 		s[l - i - 1] = c;
 	}
 }
-
-
