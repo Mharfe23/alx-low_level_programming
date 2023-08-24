@@ -22,12 +22,10 @@ char *_strcat(char *dest, char *src)
 
 	while (*s != '\0')
 	{
+		dest[lend] = *s;
 		s++;
-		lens;
+		lend++;
 	}
-	for (i = 0; i <= lens - 3; i++)
-	{
-		dest[i + lend - 2] = src [i];
-	}
-	return (d2);
+	dest[lend] = '\0';
+	return dest;
 }
