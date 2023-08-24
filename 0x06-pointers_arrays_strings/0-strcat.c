@@ -24,5 +24,5 @@ char *_strcat(char *dest, char *src)
 		lend++;
 	}
 	dest[lend] = '\0';
-	return dest;
+	return (dest);
 }
