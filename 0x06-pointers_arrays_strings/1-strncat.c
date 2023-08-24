@@ -6,7 +6,7 @@
  * @n: n bytes limit
  * Return: char
  */
-char *_strncat(char *dest, char *src,int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int lend = 0;
 	int src_bytes = 0;
