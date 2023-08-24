@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 		lend++;
 	}
 
-	while (*s != src)
+	while (*s != '\0')
 	{
 		s++;
 		lens;
