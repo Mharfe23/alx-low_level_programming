@@ -23,5 +23,6 @@ char *_strncat(char *dest, char *src, int n)
 		src_bytes++;
 		lend++;
 	}
+	dest[lend] = '\0';
 	return (dest);
 }
