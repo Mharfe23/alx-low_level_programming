@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncat - same as before but add n bytes limitation as a condition
+ * _strncat - same as before but add n bytes limitation as a condition
  * @dest: first
  * @src: second
  * @n: n bytes limit
