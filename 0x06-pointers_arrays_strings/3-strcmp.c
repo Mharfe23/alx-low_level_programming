@@ -11,31 +11,28 @@ int _strcmp(char *s1, char *s2)
 	char *p1 = s2;
 
 	while (*p != '\0' && *p1 != '\0')
-	{
-		if (*p == *p1)
-			return (0);
-		else
+	{	
+		if (*p != *p1)
 			break;
+		else
+			return (0);
 		p++;
 		p1++;
 	}
-		
 
 	if (*s1 < *s2)
 		return (-15);
 	else if (*s1 > *s2)
 		return (15);
-	else
+
+	while (*s1 == *s2)
 	{
-		while (*s1 == *s2)
-		{
-			s1++;
-			s2++;
-			if (*s1 < *s2)
-				return (-15);
-			else if (*s1 > *s2)
-				return (15);
-		}
+		s1++;
+		s2++;
+		if (*s1 < *s2)
+			return (-15);
+		else if (*s1 > *s2)
+			return (15);
 	}
-	return (0);
 }
+
