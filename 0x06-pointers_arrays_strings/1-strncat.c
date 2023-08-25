@@ -18,11 +18,10 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (*src != '\0' && src_bytes < n)
 	{
-		dest[lend + 1] = *src;
+		dest[lend] = *src;
 		src++;
 		src_bytes++;
 		lend++;
 	}
-	dest[lend] = '\0';
 	return (dest);
 }
