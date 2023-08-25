@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper - uppercasing
- * Retrun: char
+ * Return: char
  * @str: string
  */
 char *string_toupper(char *str)
