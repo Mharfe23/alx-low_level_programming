@@ -4,7 +4,7 @@
  * _strchr - locates
  * @s: string
  * @c: char to shearch for it
- * Return: char the pointer of the char 
+ * Return: char the pointer of the cha
  */
 char *_strchr(char *s, char c)
 {
