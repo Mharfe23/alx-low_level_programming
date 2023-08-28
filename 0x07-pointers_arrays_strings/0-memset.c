@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - memset
+ * _memset - memset function
  * @s: pointer
  * @b: char
  * @n: unsigned int
