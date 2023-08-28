@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _strchr - locates
  * @s: char
  * @c: char
  * Return: char
  */
-_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
 	{
@@ -13,4 +14,7 @@ _strchr(char *s, char c)
 		{
 			return (s);
 		}
-		return (NULL);
+		s++;
+	}
+	return (NULL);
+}
