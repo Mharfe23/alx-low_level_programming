@@ -4,7 +4,7 @@
  * _print_rev_recursion - print rev a string
  * @s: string
  */
-char rev(char *s, int i)
+void rev(char *s, int i)
 {
 	int k = strlen(s);
 
