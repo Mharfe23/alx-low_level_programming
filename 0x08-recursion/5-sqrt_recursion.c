@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * sqrtguess - guess all the numbers that maybe square roots
+ * _sqrt_recursion - guess all the numbers that maybe square roots
  * @guess: the variable that may be the natural square root of the number n
  * @n: integer
  *
  * second function
  *
- * _sqrt_recursion - sqrt
+ * sqrtguess - sqrt
  * @n: int
  * Return: inte
  */
