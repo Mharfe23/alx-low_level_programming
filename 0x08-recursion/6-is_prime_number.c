@@ -26,7 +26,7 @@ int is_prime_number(int n)
 		return (0);
 	else if (devisor(n, 1) > 2)
 		return (0);
-	else if (devisor(n, 1) = 2)
+	else if (devisor(n, 1)== 2)
 		return (1);
 	else
 		return (0);
