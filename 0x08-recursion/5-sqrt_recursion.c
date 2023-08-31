@@ -14,13 +14,11 @@ int sqrtguess(int n, int guess)
 	else
 		return (guess);
 }
-
 /**
  * _sqrt_recursion - sqrt
  * @n: int
  * Return: sqrt root 
  */
-
 int _sqrt_recursion(int n)
 {
 	return (sqrtguess(n, 1));
