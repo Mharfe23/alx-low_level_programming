@@ -1,13 +1,8 @@
 #include "main.h"
 /**
- * _sqrt_recursion - guess all the numbers that maybe square roots
+ * sqrtguess - guess all the numbers that maybe square roots
  * @guess: the variable that may be the natural square root of the number n
  * @n: integer
- *
- * second function
- *
- * sqrtguess - sqrt
- * @n: int
  * Return: inte
  */
 int sqrtguess(int n, int guess)
@@ -20,7 +15,11 @@ int sqrtguess(int n, int guess)
 		return (guess);
 }
 
-
+/**
+ * _sqrt_recursion - sqrt
+ * @n: int
+ * Return: sqrt root 
+ */
 
 int _sqrt_recursion(int n)
 {
