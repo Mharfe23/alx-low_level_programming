@@ -15,11 +15,12 @@ void rev(char *s, int i)
 		_putchar(s[i]);
 	}
 }
+/**
+ * _print_rev_recursion - main function
+ * @s: the string
+ */
 void _print_rev_recursion(char *s)
 {
 	rev(s, 0);
 }
-/**
- * _print_rev_recursion - print string reverse
- * @s: string
- */
+
