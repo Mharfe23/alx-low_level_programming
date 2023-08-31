@@ -17,7 +17,7 @@ int sqrtguess(int n, int guess)
 /**
  * _sqrt_recursion - sqrt
  * @n: int
- * Return: sqrt root 
+ * Return: sqrt root
  */
 int _sqrt_recursion(int n)
 {
