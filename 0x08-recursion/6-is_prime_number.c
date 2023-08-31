@@ -23,7 +23,7 @@ int devisor(int n, int div)
 int is_prime_number(int n)
 {
 	if (n == 1)
-		return (1);
+		return (0);
 	else if (devisor(n, 1) > 2)
 		return (0);
 	else
