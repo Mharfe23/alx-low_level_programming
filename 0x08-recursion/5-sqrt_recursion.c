@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - sqrt
- * sqrtguess - guess all the numbers
+ * sqrtguess - guess all the numbers that maybe square roots
  * @guess: the variable that may be the natural square root of the number n
  * @n: integer
  * Return: inte
