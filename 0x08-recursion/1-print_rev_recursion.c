@@ -10,11 +10,11 @@ void rev(char *s, int i)
 
 	if (i < k)
 	{
-		rev(*s, i + 1);
+		rev(s, i + 1);
 		_putchar(s[i]);
 	}
 }
 void _print_rev_recursion(char *s)
 {
-	return (rev(*s, 0));
+	return (rev(s, 0));
 }
