@@ -12,6 +12,8 @@ int devisor(int n, int div)
 	}
 	else if (div == n)
 		return (1);
+	else
+		return (0);
 }
 /**
  * is_prime_number - prime checker
