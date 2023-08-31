@@ -8,10 +8,10 @@ int devisor(int n, int div)
 {
 	if (div < n && n % div == 0)
 	{
-		return (devisor(n, div + 1) + 1)
+		return (devisor(n, div + 1) + 1);
 	}
 	else if (div == n)
-		return (1 + count);
+		return (1);
 }
 /**
  * is_prime_number - prime checker
