@@ -3,8 +3,10 @@
  * sqrtguess - guess all the numbers that maybe square roots
  * @guess: the variable that may be the natural square root of the number n
  * @n: integer
- *
+ */
+/*
  * _sqrt_recursion - sqrt
+ * @n: int
  * Return: inte
  */
 int sqrtguess(int n, int guess)
