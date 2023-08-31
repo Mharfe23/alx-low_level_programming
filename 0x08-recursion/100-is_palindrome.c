@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+char *rev(char *s, int i);
 char *reversestring(char *s)
 {
 	return rev(s, 0);
