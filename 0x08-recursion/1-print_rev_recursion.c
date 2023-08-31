@@ -16,5 +16,5 @@ void rev(char *s, int i)
 }
 void _print_rev_recursion(char *s)
 {
-	return (rev(s, 0));
+	rev(s, 0);
 }
