@@ -4,15 +4,17 @@
  * _print_rev_recursion - print rev a string
  * @s: string
  */
+char rev(char *s, int i)
+{
+	int k = strlen(s);
+
+	if (i < k)
+	{
+		rev(*s, i + 1);
+		_putchar(s[i]);
+	}
+}
 void _print_rev_recursion(char *s)
 {
-	int l = strlen(s);
-	int i = 0;
-
-	if (i <= l)
-	{
-		_putchar(s[l - i]);
-		i++;
-		_print_rev_recursion(s);
-	}
+	return (rev(*s, 0));
 }
