@@ -22,22 +22,22 @@ int main (int argc, char *argv[])
                 printf("0\n");
                 return (0);
         }
-	while (cent <= 25)
+	while (cent >= 25)
 	{
 		sum++;
 		cent = cent / 25 + cent % 25;
 	}
-	while (cent <= 10)
+	while (cent >= 10)
 	{
 		sum++;
 		cent = cent / 10 + cent % 10;
 	}
-	while (cent <= 5)
+	while (cent >= 5)
 	{
 		sum++;
 		cent = cent / 5 + cent % 5;
 	}
-	while (cent <= 2)
+	while (cent >= 2)
 	{
 		sum++;
 		cent = cent / 2 + cent % 2;
