@@ -44,6 +44,6 @@ int main (int argc, char *argv[])
 	}
 	if (cent == 1)
 		sum++;
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
