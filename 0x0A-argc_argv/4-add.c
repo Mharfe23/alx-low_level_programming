@@ -3,8 +3,8 @@
 /**
  * main - add numbers
  * @argc: argc
- * @argc: argv
- * return: 0 or 1
+ * @argv: argv
+ * Return: 0 or 1 faan
  */
 int main(int argc, char *argv[])
 {
