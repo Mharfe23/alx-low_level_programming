@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - coin necessary
  * @argc: argc
@@ -15,12 +16,12 @@ int main (int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (atoi(argv[1]) < 0)
-	{
-		printf("0\n");
-		return (0);
-	}
 	cent = atoi(argv[1]);
+	if (cent < 0)
+        {
+                printf("0\n");
+                return (0);
+        }
 	while (cent <= 25)
 	{
 		sum++;
@@ -44,4 +45,5 @@ int main (int argc, char *argv[])
 	if (cent == 1)
 		sum++;
 	printf("%d", sum);
+	return (0);
 }
